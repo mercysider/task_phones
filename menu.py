@@ -12,7 +12,7 @@ def add():
     firstname = input("Введите имя: ")
     secondname = input("Введите фамилию: ")
     phone = input("Введите номер: ")
-    return firstname.ljust(15) + ' ' + secondname.ljust(20) + ' ' + phone.ljust(15)
+    return firstname.ljust(15) + ' ' + secondname.ljust(20) + ' ' + phone.ljust(12)
 
 def search():
     name = input("Введите имя или фамилию: ")
